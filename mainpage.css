@@ -1,0 +1,115 @@
+html, body{
+
+    height: 100vh;
+    width: 100vw;
+    margin:0px;
+    background: white;
+    background-image: radial-gradient(#454545, black);
+}
+/* REGISTRATION AND LOGIN BAR */
+/* log in and register button div */
+#user{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 3%;
+}
+/* Login and register button */
+.button{
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    width: 5em;
+}
+
+/* POP UPS */
+/* login div with username and passwords text inputs */
+#access{
+    display: none;
+    position: absolute;
+    left: 40%;
+    top:40%;
+    height: 150px;
+    width: 250px;
+    background-color:whitesmoke;
+    border-radius: 10%;
+    align-items: center;
+}
+input{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+#username{
+    margin-top: 30px;
+}
+#next{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+#registration{
+    display: none;
+    position: absolute;
+    left: 40%;
+    top:40%;
+    height: 165px;
+    width: 250px;
+    background-color:whitesmoke;
+    border-radius: 10%;
+    align-items: center;
+}
+input{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.username{
+    margin-top: 30px;
+}
+.pop_button{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+/* Close button for registration and login pop up divs */
+.close{
+    position:absolute;
+    left:230px;
+    top:-10px;
+    border-radius: 100%;
+    float: right;
+    background-color: whitesmoke;
+    width: 1em;
+    height: 1em;
+    border: solid 1px black;
+    text-align:center;
+    font-size: 1.5em;
+    padding: 3px;
+    user-select: none;
+}
+.close:hover{
+    background-color: rgba(245, 245, 245, 0.863);
+}
+.close:active{
+    width: 0.9em;
+    height: 0.9em;
+    font-size: 1.5em;
+    padding: 3px;
+}
+
+
+/* Background canvas animation*/
+
+canvas{
+    position: absolute;
+    top: 5%;
+    left:15%;
+    height:850px;
+    width: 1300px;
+}
+
+/* https://medium.com/wdstack/fixing-html5-2d-canvas-blur-8ebe27db07da */
+
+
+
